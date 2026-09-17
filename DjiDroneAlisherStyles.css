@@ -51,3 +51,12 @@ body {
   width: 45%;
 }
 
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}

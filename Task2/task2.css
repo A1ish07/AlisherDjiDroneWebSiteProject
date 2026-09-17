@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 2px solid white;
+}
+
+.aitu-logo {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.navigation-title {
+    margin: 0;
+    padding: 15px;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.navbar {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    padding: 20px;
+    overflow: auto;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 15px;
+    min-height: 50px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar img {
+    float: right;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.main-content {
+    float: right;
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.main-content p {
+    line-height: 1.6;
+}
+
+.footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 2px solid white;
+}
