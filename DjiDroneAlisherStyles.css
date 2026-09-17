@@ -1,0 +1,53 @@
+
+body {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  color: #f9faf9;
+}
+
+.center-text {
+  text-align: center;
+  font-size: 24px;
+  color: #0080ff;
+  font-weight: bold;  
+}
+
+#profile-card {
+  border: 2px solid #fbfbfb;
+  background-color: #000000;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 350px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#profile-card img {
+  max-width: 120px;
+  border-radius: 50%;
+  border: 2px solid #0077cc;
+  margin-bottom: 10px;
+}
+
+
+.drone-img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: block; 
+}
+
+
+
+.lists-container {
+  display: flex;
+  justify-content: space-between; /* разносит списки по сторонам */
+  align-items: flex-start;         /* выравнивает по верхнему краю */
+  margin: 20px;
+  flex-wrap: wrap;                 /* чтобы на маленьком экране списки шли друг под другом */
+}
+
+.left-list, .right-list {
+  width: 45%;
+}
+
