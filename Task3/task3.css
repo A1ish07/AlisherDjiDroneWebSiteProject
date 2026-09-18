@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+
+    color: white;
+
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header {
+    height: 72px;
+
+    display: block;
+
+    border-bottom: 1px solid #237ba5;
+
+    background-color: #021a2d;
+
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+
+    left: 50px;
+    top: 12px;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 25px;
+
+    line-height: 25px;
+
+    font-weight: bold;
+
+    color: white;
+}
+
+.logo span {
+    margin-right: 5px;
+}
+
+
+
+.header-title {
+    position: absolute;
+
+    left: 195px;
+    top: 17px;
+}
+
+.header-title p {
+    margin: 0;
+
+    color: #67c8f5;
+
+    font-size: 16px;
+
+    letter-spacing: 1px;
+}
+
+
+.navbar {
+    position: absolute;
+
+    right: 45px;
+    top: 0;
+
+    height: 72px;
+}
+
+.navbar a {
+    display: inline-block;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 25px 18px;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #55c7fa;
+
+    border-bottom: 2px solid #55c7fa;
+}
+
+.content {
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 32px 20px;
+}
+
+
+
+.hero {
+    min-height: 400px;
+
+    position: relative;
+
+    padding-top: 5px;
+}
+
+
+.photo-box {
+    float: left;
+
+    width: 37%;
+
+    margin-right: 40px;
+}
+
+.photo-box img {
+    width: 100%;
+
+    max-width: 370px;
+
+    height: 370px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+    border: 2px solid #2d83b1;
+
+    box-shadow:
+        0 0 25px rgba(52, 157, 210, 0.25);
+}
+
+
+.intro {
+    padding-top: 5px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+.intro h1 {
+    margin: 0;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 58px;
+
+    line-height: 1.1;
+
+    letter-spacing: 1px;
+}
+
+.intro h2 {
+    margin-top: 12px;
+
+    margin-bottom: 25px;
+
+    color: #67c8f5;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 27px;
+}
+
+.intro h3 {
+    font-family: "Playfair Display", serif;
+
+    font-size: 24px;
+
+    margin-bottom: 12px;
+}
+
+.intro p {
+    max-width: 610px;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    color: #e2edf3;
+}
+
+.intro .date {
+    color: #65c8f6;
+
+    font-size: 16px;
+
+    margin-top: 20px;
+}
+
+
+.japanese-text {
+    position: absolute;
+
+    right: 0;
+
+    top: 25px;
+
+    font-family: serif;
+
+    font-size: 95px;
+
+    line-height: 1;
+
+    color: rgba(155, 198, 218, 0.25);
+
+    text-align: center;
+
+    z-index: 1;
+}
+
+
+.info-section {
+    clear: both;
+
+    padding-top: 30px;
+
+    overflow: hidden;
+}
+
+.card {
+    float: left;
+
+    width: 48%;
+
+    min-height: 450px;
+
+    padding: 25px;
+
+    border: 1px solid #17648b;
+
+    border-radius: 10px;
+
+    background-color: rgba(0, 22, 36, 0.75);
+
+    box-shadow:
+        0 5px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card:first-child {
+    margin-right: 4%;
+}
+
+.card h2 {
+    margin-top: 0;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 27px;
+}
+
+
+
+.events ol {
+    padding-left: 32px;
+}
+
+.events li {
+    padding-left: 5px;
+
+    margin-bottom: 18px;
+}
+
+.events li::marker {
+    color: #62c5f2;
+
+    font-weight: bold;
+}
+
+.events strong {
+    font-size: 15px;
+}
+
+.events p {
+    margin-top: 5px;
+
+    margin-bottom: 0;
+
+    color: #bcd0dc;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+
+.achievement-list {
+    padding-left: 20px;
+}
+
+.achievement-list li {
+    margin-bottom: 17px;
+
+    padding-left: 5px;
+
+    font-size: 15px;
+}
+
+.achievement-list li::marker {
+    color: #61c8f5;
+}
+
+
+
+.quote {
+    margin-top: 40px;
+
+    padding-top: 25px;
+
+    border-top: 1px solid #277b9e;
+
+    text-align: center;
+}
+
+.quote p {
+    font-family: "Playfair Display", serif;
+
+    font-size: 21px;
+
+    font-style: italic;
+
+    line-height: 1.5;
+
+    margin-bottom: 10px;
+}
+
+.quote span {
+    color: #a8c8d8;
+
+    font-size: 13px;
+}
+
+
+.links-section {
+    clear: both;
+
+    min-height: 170px;
+
+    padding-top: 40px;
+
+    overflow: hidden;
+}
+
+.links {
+    float: left;
+
+    width: 60%;
+}
+
+.links h2 {
+    font-family: "Playfair Display", serif;
+
+    font-size: 25px;
+
+    margin-top: 0;
+}
+
+.links a {
+    display: block;
+
+    width: fit-content;
+
+    color: #58c6f5;
+
+    text-decoration: none;
+
+    margin: 13px 0;
+
+    font-size: 14px;
+}
+
+.links a:hover {
+    color: white;
+
+    text-decoration: underline;
+}
+
+
+.learn-more {
+    float: right;
+
+    width: 35%;
+
+    text-align: center;
+
+    padding-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+
+    min-width: 230px;
+
+    padding: 14px 30px;
+
+    border-radius: 22px;
+
+    border: 1px solid #66caf4;
+
+    background-color: #318dc1;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.3);
+
+    transition: 0.3s;
+}
+
+.btn span {
+    font-size: 12px;
+
+    font-weight: normal;
+}
+
+.btn:hover {
+    background-color: white;
+
+    color: #0b4664;
+
+    transform: translateY(-3px);
+}
+
+.footer {
+    clear: both;
+
+    border-top: 1px solid #17648b;
+
+    background-color: #011522;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+
+    color: #b7ccd7;
+
+    font-size: 13px;
+}
+
+
+
+@media (max-width: 850px) {
+
+    .header-title {
+        display: none;
+    }
+
+    .navbar {
+        right: 10px;
+    }
+
+    .navbar a {
+        padding: 25px 8px;
+    }
+
+    .photo-box {
+        float: none;
+
+        width: 100%;
+
+        margin-right: 0;
+
+        text-align: center;
+    }
+
+    .intro {
+        margin-top: 25px;
+    }
+
+    .intro h1 {
+        font-size: 45px;
+    }
+
+    .japanese-text {
+        display: none;
+    }
+
+    .card {
+        float: none;
+
+        width: 100%;
+
+        margin-bottom: 25px;
+    }
+
+    .card:first-child {
+        margin-right: 0;
+    }
+
+    .links {
+        float: none;
+
+        width: 100%;
+    }
+
+    .learn-more {
+        float: none;
+
+        width: 100%;
+
+        margin-top: 20px;
+    }
+}
