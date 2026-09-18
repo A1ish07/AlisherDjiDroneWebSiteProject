@@ -64,3 +64,23 @@ input, select, textarea {
 .submit-btn:hover {
   background-color: #0055aa;
 }
+
+
+.navbar {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
