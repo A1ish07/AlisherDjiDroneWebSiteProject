@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 4 - Table and Form</title>
+  <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+  <h1 id="page-title">Student Grades - Alisher</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4">Alisher</td>
+        <td>Software Design Patterns</td>
+        <td>90%</td>
+      </tr>
+      <tr class="highlight-row">
+        <td>WEB Technologies</td>
+        <td>99%</td>
+      </tr>
+      <tr>
+        <td>Operating Systems</td>
+        <td>95%</td>
+      </tr>
+      <tr>
+        <td>Analytic Methods in Computer Science</td>
+        <td>85%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Feedback Form</h2>
+  <form id="feedback-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+      <option>Student</option>
+      <option>Teacher</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <label>Do you like this course?</label><br>
+    <input type="radio" name="like" value="Yes"> Yes
+    <input type="radio" name="like" value="No"> No<br><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments"></textarea><br><br>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+</body>
+</html>
 
