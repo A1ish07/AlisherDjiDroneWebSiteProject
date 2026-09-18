@@ -6,6 +6,9 @@ My project demonstrates the fundamentals of HTML and CSS through practical tasks
 
 
 
+## Task 5 Link
+[Open Figma Project](https://www.figma.com/design/obO3L0JD8pCNnJX1bxOJA1/Untitled?node-id=0-1&p=f)
+
 
 ## 📂 Project Structure
 
@@ -27,7 +30,6 @@ My project demonstrates the fundamentals of HTML and CSS through practical tasks
 <img width="300" height="200" alt="csgo" src="https://github.com/user-attachments/assets/52fa30fc-fa16-4b22-9078-80d55e74e87e" />
 <img width="300" height="200" alt="aitulogo" src="https://github.com/user-attachments/assets/27878f1e-879e-4bfa-899c-5aa1268b4f16" />
 <img width="300" height="200" alt="abe" src="https://github.com/user-attachments/assets/1f64aaae-8fff-493c-b5af-32591b9f902f" />
-
 
 
 ## ~Alimbayev Alisher
